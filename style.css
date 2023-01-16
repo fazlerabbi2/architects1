@@ -409,3 +409,30 @@ img{
 
 
 }
+.single_achieved{
+    position:relative;
+    overflow: hidden;
+}
+.single_achieved:hover h5,p{
+    color: #fff;
+    transition: .5s;
+}
+.single_achieved:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #FF900E;
+  z-index: -1;
+  height: 0%;
+  opacity: 0;
+  transition: .5s;
+  
+}
+.single_achieved:hover.single_achieved:before{
+    opacity: 1;
+    transition: .5s;
+    width: 100%;
+    height: 100%;
+}
