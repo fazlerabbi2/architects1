@@ -368,6 +368,7 @@ img{
       }
     .features .features_blog{
         padding-right: 0px;
+        margin-bottom: 50px;
     }
     .features_blog h3, .features_blog > p {
         margin-left: 10px;
