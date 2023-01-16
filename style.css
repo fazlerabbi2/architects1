@@ -68,7 +68,7 @@ ul.menu li a {
     margin: 0 auto;
 }
 .btn {
-    padding: 20px;
+    padding: 23px 20px;
     background-color: #FF900E;
     color: #fff;
     font-size: 20px;
@@ -79,7 +79,6 @@ ul.menu li a {
     margin-bottom: 50px;
 }
 .banner img{
-
     max-height: 600px;
 }
 img{
@@ -135,10 +134,10 @@ img{
 }
 .features .features_blog{
     padding-right: 90px;
-    flex-basis: calc(42% - 90px / 2);
+    flex-basis: calc(50% - 90px / 2);
 }
 .features .features_img{
-    flex-basis: calc(58% - 90px / 2);
+    flex-basis: calc(50% - 90px / 2);
 }
 .single_features h5{
     font-size: 20px;
@@ -150,31 +149,32 @@ img{
     color: var(--p_common_color);
 }
 .single_features{
-    padding: 30px 20px 1px;
+    padding: 30px 20px 10px;
     box-shadow: rgb(221 221 221) 0px 4px 16px 0px;
     margin-bottom: 20px;
+    border-radius: 12px;
 }
 .features_area {
     position: relative;
 }
 .Experience {
     position: absolute;
-    bottom: 25px;
-    left: 42%;
+    bottom: 6%;
+    left: 50%;
     background-color: #FF900E;
     display: inline-block;
-    padding: 30px 40px;
+    padding: 52px 42px;
     color: #fff;
     border-radius: 8px;
     text-align: center;
 }
 .Experience h5{
-    font-size: 25px;
+    font-size: 65px;
     font-weight: 700;
     
 }
 .Experience span {
-    font-size: 15px;
+    font-size: 25px;
     display: block;
 
 }
